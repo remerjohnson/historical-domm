@@ -1,0 +1,13 @@
+
+-------------------------------- Fri Sep 02 10:09:49 PDT 2016 --------------------------------
+
+Mac Low Audio Recordings - http://librarytest.ucsd.edu/dc/object/bd4349910c - successful - 2016-09-02T10:09:49
+
+______________________________________________________________________________________________
+Import summary: successful - Imported 0 objects in 1 metadata file 
+- Total 1 records ingested. 
+- No files ingested.
+
+Found 4 records. The following 1 record is imported: 
+http://library.ucsd.edu/ark:/20775/bd4349910c
+
