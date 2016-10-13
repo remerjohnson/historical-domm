@@ -22,3 +22,7 @@ A proposed general workflow for DOMM is:
 + If your present commit fixes an issue to the best of your knowledge, add the keywords `fixes #(issue number)` to the commit message and it automatically closes the issue.
 + If someone else outside of DOMM would like to download or edit the metadata, they would go through the normal GitHub process of `git clone` or fork from GitHub -> make changes and commit -> submit pull request.
 + Even after the files are deleted on staging, the metadata repository could remain updated and preserved. It still might not be "complete" if RDF edits have occurred on the live collection in production, however.
+
+## Contributing
+
++ Open an issue or help on the Wiki :smile: 
