@@ -2,7 +2,7 @@
 
 Public Data Collection for "Whale Wave" publication by Keen et al. 
 (accepted in 2016 at _Marine Ecology Progress Series_)
-Metadata and public data collection were prepared by lead author Eric Keen, [ekeen@ucsd.edu]()
+Metadata and public data collection were prepared by lead author Eric Keen, [ekeen@ucsd.edu](ekeen@ucsd.edu)
 
 -----
 
