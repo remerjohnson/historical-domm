@@ -4,6 +4,7 @@ This is a repository to test how our normal [DOMM](https://github.com/orgs/ucsdl
 
 ## Contents
 + `xls_standard_input_template.xlsx` - Our most recent template for our "Excel Standard Input stream". We use this template to populate the metadata for all the objects in a collection that are ingested into the DAMS.
++ `subject_import_template.xlsx` - Our most recent template to import subjects into the DAMS, which then create subject authorities if they don't match existing subjects, as well as point to external authorities from FAST, LoC, VIAF, Wikidata, etc.
 + Project folders (e.g. `mac-low`) - Folders for each project/collection, which contain the complete or in-progress metadata for that collection.
   + OLR - Contains the Object Level Record
   + CLR - Contains the Collection Level Record
