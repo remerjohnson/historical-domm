@@ -23,6 +23,12 @@ A proposed general workflow for [DOMM](https://github.com/orgs/ucsdlib/teams/dom
 + If your present commit fixes an issue to the best of your knowledge, add the keywords `fixes #(issue number)` to the commit message and it automatically closes the issue.
 + If someone else outside of DOMM would like to download or edit the metadata, they would go through the same GitHub process of fork from GitHub -> make changes and commit -> submit pull request.
 
+## Future Developments
+
+DOMM and IT are undergoing a lot of change with regards to the DAMS ontology and the input streams process. This will impact this repo in that the types of files kept will become .csv files, not Excel.  
+  
+The files will also adhere to a different ontolgy, so will not be expected to be compatible with the model expressed in the Excel files. It is also anticipated that "CLRs", Collection Level Records, will no longer exist, since they will likely be able to be created within Hyrax/Sufia/CreationConcerns itself.  
+
 ## Contributing
 
 + Open an issue or help on the Wiki :smile:
