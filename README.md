@@ -1,18 +1,10 @@
-# DOMM Metadata Repository README
+# DOMM Metadata Repository README (Deprecated)
 
-This is a repository to test how our normal [DOMM](https://github.com/orgs/ucsdlib/teams/domm) 'metadata wrangling' workflow would look like using git and GitHub.  
-
-## Contents
-+ `xls_standard_input_template.xlsx` - Our most recent template for our "Excel Standard Input stream". We use this template to populate the metadata for all the objects in a collection that are ingested into the DAMS.
-+ `subject_import_template.xlsx` - Our most recent template to import subjects into the DAMS, which then create subject authorities if they don't match existing subjects, as well as point to external authorities from FAST, LoC, VIAF, Wikidata, etc.
-+ Project folders (e.g. `mac-low`) - Folders for each project/collection, which contain the complete or in-progress metadata for that collection.
-  + OLR - Contains the Object Level Record
-  + CLR - Contains the Collection Level Record
-  + provider_metadata - Contains the metadata (spreadsheets mostly) that we initially receive from data providers. Also can contain the results of our 'cleaning' the data via OpenRefine or other methods
+This is a now-defunct repository that tested how our 'metadata wrangling' workflow would look like using git and GitHub. It has been superceded by a new, private repo.  
 
 ## Workflow
 
-A proposed general workflow for [DOMM](https://github.com/orgs/ucsdlib/teams/domm) is:  
+A proposed general workflow is:  
 + If you are starting from scratch, fork this repo. If you already have it, `git pull` to get the latest version.
 + `cd` into the repo on your local machine, make your project's folder, then make subfolders for the CLR, OLR, provider data, a README, etc.
   + For help on formatting READMEs and other Markdown tips, see GitHub's page on [GitHub Flavored Markdown](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
@@ -23,12 +15,3 @@ A proposed general workflow for [DOMM](https://github.com/orgs/ucsdlib/teams/dom
 + If your present commit fixes an issue to the best of your knowledge, add the keywords `fixes #(issue number)` to the commit message and it automatically closes the issue.
 + If someone else outside of DOMM would like to download or edit the metadata, they would go through the same GitHub process of fork from GitHub -> make changes and commit -> submit pull request.
 
-## Future Developments
-
-DOMM and IT are undergoing a lot of change with regards to the DAMS ontology and the input streams process. This will impact this repo in that the types of files kept will become .csv files, not Excel.  
-  
-The files will also adhere to a different ontolgy, so will not be expected to be compatible with the model expressed in the Excel files. It is also anticipated that "CLRs", Collection Level Records, will no longer exist, since they will likely be able to be created within Hyrax/Sufia/CreationConcerns itself.  
-
-## Contributing
-
-+ Open an issue or help on the Wiki :smile:
